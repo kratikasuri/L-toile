@@ -1,0 +1,163 @@
+{
+  "version": "6.0",
+  "nxVersion": "22.3.3",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "backend": [
+        {
+          "file": "apps/backend/.env",
+          "hash": "15510663166943313927"
+        },
+        {
+          "file": "apps/backend/config/db.js",
+          "hash": "4084445648510649788",
+          "deps": [
+            "npm:dotenv"
+          ]
+        },
+        {
+          "file": "apps/backend/controllers/authController.js",
+          "hash": "2500107781288595672"
+        },
+        {
+          "file": "apps/backend/controllers/categoryControllers.js",
+          "hash": "8945471162098451777"
+        },
+        {
+          "file": "apps/backend/controllers/productController.js",
+          "hash": "12395666825863563208"
+        },
+        {
+          "file": "apps/backend/controllers/userController.js",
+          "hash": "9670484510563084219"
+        },
+        {
+          "file": "apps/backend/middleware/authMiddleware.js",
+          "hash": "14880979712385838532"
+        },
+        {
+          "file": "apps/backend/middleware/validate.js",
+          "hash": "7957741827864335945"
+        },
+        {
+          "file": "apps/backend/models/productModel.js",
+          "hash": "4771102127782674625"
+        },
+        {
+          "file": "apps/backend/models/userModel.js",
+          "hash": "14117876129942584616"
+        },
+        {
+          "file": "apps/backend/package.json",
+          "hash": "6418674570416347779",
+          "deps": [
+            "npm:nx",
+            "npm:dotenv"
+          ]
+        },
+        {
+          "file": "apps/backend/project.json",
+          "hash": "6888647936160061746"
+        },
+        {
+          "file": "apps/backend/routes/authRoutes.js",
+          "hash": "14723976198810880188"
+        },
+        {
+          "file": "apps/backend/routes/categoryRoutes.js",
+          "hash": "4693023874777134652"
+        },
+        {
+          "file": "apps/backend/routes/productRoutes.js",
+          "hash": "15319412923064360495"
+        },
+        {
+          "file": "apps/backend/routes/protectedRoutes.js",
+          "hash": "17430439672201900247"
+        },
+        {
+          "file": "apps/backend/server.js",
+          "hash": "15442265339242001278",
+          "deps": [
+            "npm:dotenv"
+          ]
+        }
+      ],
+      "frontend": [
+        {
+          "file": "apps/frontend/project.json",
+          "hash": "3485594464563178582"
+        }
+      ]
+    },
+    "nonProjectFiles": [
+      {
+        "file": ".DS_Store",
+        "hash": "11573421431900342222"
+      },
+      {
+        "file": "REACT_NATIVE_SETUP.md",
+        "hash": "4431273602745350072"
+      },
+      {
+        "file": "env.example",
+        "hash": "6803846225024716218"
+      },
+      {
+        "file": "migrations/001_init.sql",
+        "hash": "1409986605680257373"
+      },
+      {
+        "file": "nx.json",
+        "hash": "427209836484684200"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "9550973084387167719"
+      },
+      {
+        "file": "react-native-templates/App.js.example",
+        "hash": "12986772051797219850"
+      },
+      {
+        "file": "react-native-templates/AppNavigator.js",
+        "hash": "1385503197808502888"
+      },
+      {
+        "file": "react-native-templates/AuthContext.js",
+        "hash": "14040600832776920876"
+      },
+      {
+        "file": "react-native-templates/LoginScreen.js",
+        "hash": "7514983112923502884"
+      },
+      {
+        "file": "react-native-templates/README.md",
+        "hash": "6724568520773825987"
+      },
+      {
+        "file": "react-native-templates/apiClient.js",
+        "hash": "12123546299517041713"
+      },
+      {
+        "file": "react-native-templates/authAPI.js",
+        "hash": "3639516803285911582"
+      },
+      {
+        "file": "react-native-templates/categoriesAPI.js",
+        "hash": "17830929678716652585"
+      },
+      {
+        "file": "react-native-templates/package.json.dependencies",
+        "hash": "610452900016271635"
+      },
+      {
+        "file": "react-native-templates/productsAPI.js",
+        "hash": "8509662134292150200"
+      }
+    ]
+  },
+  "externalNodesHash": "5129685250477355259"
+}

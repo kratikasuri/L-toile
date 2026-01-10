@@ -1,0 +1,113 @@
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.355Z - Started listening on: /private/var/folders/42/5dpzjj8s2d55v0gsc5bz2rjm0000gn/T/101d99c86f8a897bc67f/d.sock
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.355Z - [WATCHER]: Subscribed to changes within: /Users/kunalsuri/zepto-backend (native)
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.356Z - [NX-CONSOLE]: Pulling latest Nx (latest) to check console status...
+Fetching nx...
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.451Z - [WATCHER]: Processing file changes in outputs
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.451Z - Established a connection. Number of open connections: 1
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.451Z - Established a connection. Number of open connections: 2
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.452Z - Received raw message of length 32
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.452Z - Received json message of type GET_NX_CONSOLE_STATUS
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.453Z - Serializing response for GET_NX_CONSOLE_STATUS message in json mode
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.453Z - Responding to GET_NX_CONSOLE_STATUS message
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.453Z - [REQUEST]: Responding to the client. handleGetNxConsoleStatus
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.453Z - Done responding to the client handleGetNxConsoleStatus
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.453Z - Handled json message GET_NX_CONSOLE_STATUS. Handling time: 0. Response time: 0.
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.453Z - Closed a connection. Number of open connections: 1
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.459Z - Time taken for 'loadSpecifiedNxPlugins' 1.3295410005375743ms
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.472Z - Established a connection. Number of open connections: 2
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.472Z - Closed a connection. Number of open connections: 1
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.474Z - Closed a connection. Number of open connections: 0
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.481Z - Established a connection. Number of open connections: 1
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.482Z - Established a connection. Number of open connections: 2
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.482Z - Closed a connection. Number of open connections: 1
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.482Z - Received raw message of length 32
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.482Z - Received json message of type REQUEST_PROJECT_GRAPH
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.482Z - [REQUEST]: Client Request for Project Graph Received
+Time for 'plugin worker 61756 code loading' 3.2867499999701977
+Time for 'plugin worker 61754 code loading' 3.2291669994592667
+Time for 'plugin worker 61755 code loading' 5.258082999847829
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.617Z - Time taken for 'Load Nx Plugin: /Users/kunalsuri/zepto-backend/node_modules/nx/src/plugins/project-json/build-nodes/project-json' 159.89954200014472ms
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.631Z - Time taken for 'Load Nx Plugin: /Users/kunalsuri/zepto-backend/node_modules/nx/src/plugins/package-json' 173.44150000065565ms
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.631Z - Started listening on: /private/var/folders/42/5dpzjj8s2d55v0gsc5bz2rjm0000gn/T/f92e820ebcd5c68896d7/d.sock
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.632Z - [WATCHER]: Subscribed to changes within: /Users/kunalsuri/zepto-backend (native)
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.633Z - [NX-CONSOLE]: Pulling latest Nx (latest) to check console status...
+Fetching nx...
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.639Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.639Z - [REQUEST]: 
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.639Z - [REQUEST]: 
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.644Z - Reusing in-memory cached project graph because no files changed.
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.647Z - Time taken for 'loadDefaultNxPlugins' 181.74279200006276ms
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.648Z - Closed a connection. Number of open connections: 0
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.648Z - [WATCHER]: Stopping the watcher for /Users/kunalsuri/zepto-backend (sources)
+Time for 'nx/core/project-json:createNodes' 0.5195829998701811
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.649Z - [WATCHER]: Stopping the watcher for /Users/kunalsuri/zepto-backend (outputs)
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.649Z - Server stopped because: "this process is no longer the current daemon (native)"
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.736Z - [WATCHER]: Processing file changes in outputs
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.736Z - Established a connection. Number of open connections: 1
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.736Z - Established a connection. Number of open connections: 2
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.737Z - Received raw message of length 192
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.737Z - Received json message of type MULTI_GLOB
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.738Z - Serializing response for MULTI_GLOB message in json mode
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.738Z - Responding to MULTI_GLOB message
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.738Z - [REQUEST]: Responding to the client. handleMultiGlob
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.738Z - Done responding to the client handleMultiGlob
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.738Z - Handled json message MULTI_GLOB. Handling time: 1. Response time: 0.
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.738Z - Closed a connection. Number of open connections: 1
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.751Z - Received raw message of length 104
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.751Z - Received json message of type GET_NX_WORKSPACE_FILES
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.751Z - Serializing response for GET_NX_WORKSPACE_FILES message in json mode
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.751Z - Responding to GET_NX_WORKSPACE_FILES message
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.751Z - [REQUEST]: Responding to the client. handleNxWorkspaceFiles
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.751Z - Done responding to the client handleNxWorkspaceFiles
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.751Z - Handled json message GET_NX_WORKSPACE_FILES. Handling time: 0. Response time: 0.
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.793Z - Received raw message of length 32
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.793Z - Received json message of type GET_CONTEXT_FILE_DATA
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.794Z - Serializing response for GET_CONTEXT_FILE_DATA message in json mode
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.794Z - Responding to GET_CONTEXT_FILE_DATA message
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.794Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.794Z - Done responding to the client handleContextFileData
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.794Z - Handled json message GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 0.
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.795Z - Closed a connection. Number of open connections: 0
+Time for 'plugin worker 61762 code loading' 3.504583000205457
+Time for 'plugin worker 61761 code loading' 3.8497909996658564
+Time for 'plugin worker 61763 code loading' 3.4278330001980066
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.909Z - Time taken for 'Load Nx Plugin: /Users/kunalsuri/zepto-backend/node_modules/nx/src/plugins/package-json' 175.1885000001639ms
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.909Z - Time taken for 'Load Nx Plugin: /Users/kunalsuri/zepto-backend/node_modules/nx/src/plugins/project-json/build-nodes/project-json' 175.46658399980515ms
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.916Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.916Z - [REQUEST]: 
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.916Z - [REQUEST]: 
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.919Z - Time taken for 'loadDefaultNxPlugins' 181.95058299973607ms
+Time for 'nx/core/project-json:createNodes' 0.4014579998329282
+Time for 'nx/core/package-json:createNodes' 1.4913749992847443
+Time for 'nx/js/dependencies-and-lockfile:createNodes' 3.7034999998286366
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.943Z - Time taken for 'build-project-configs' 11.933415999636054ms
+Time for 'build typescript dependencies' 0.0860419999808073
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.968Z - [SYNC]: collect registered sync generators
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.969Z - Time taken for 'total execution time for createProjectGraph()' 30.565584000200033ms
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:02:05.305Z - [NX-CONSOLE]: Successfully pulled latest Nx to /private/var/folders/42/5dpzjj8s2d55v0gsc5bz2rjm0000gn/T/tmp-61757-dFe6rS73fJjH
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:02:05.381Z - [NX-CONSOLE]: Using local implementation (NX_USE_LOCAL=true or inner call)
+DEBUG nx::native::ide::install: Detected editor: Cursor
+DEBUG nx::native::ide::install: Checking if Nx Console extension is installed with: cursor --list-extensions
+DEBUG nx::native::ide::install: Command 'cursor' not found, cannot check extension status
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:02:05.396Z - [NX-CONSOLE]: Console status check completed, shouldPrompt: true
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:05:42.983Z - [WATCHER]: package.json was modified
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:05:42.983Z - [SYNC]: clearing sync generators cache due to file changes
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:05:42.984Z - [WATCHER]: Processing file changes in outputs
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:05:43.188Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:05:43.188Z - [REQUEST]: package.json
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:05:43.188Z - [REQUEST]: 
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:05:43.193Z - Time taken for 'hash changed files from watcher' 0.8406250001862645ms
+Time for 'nx/core/project-json:createNodes' 2.8955839993432164
+Time for 'nx/core/package-json:createNodes' 5.098249999806285
+Time for 'nx/js/dependencies-and-lockfile:createNodes' 10.260499999858439
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:05:43.222Z - Time taken for 'build-project-configs' 24.165208999998868ms
+Time for 'build typescript dependencies' 0.040749999694526196
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:05:43.240Z - [SYNC]: collect registered sync generators
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:05:43.240Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:05:43.240Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:05:43.240Z - Time taken for 'total execution time for createProjectGraph()' 23.217624999582767ms
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:06:11.803Z - [WATCHER]: Processing file changes in outputs
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:06:11.803Z - [WATCHER]: Stopping the watcher for /Users/kunalsuri/zepto-backend (sources)
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:06:11.803Z - [WATCHER]: Stopping the watcher for /Users/kunalsuri/zepto-backend (outputs)
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:06:11.804Z - [NX-CONSOLE]: Cleaning up latest Nx installation from /private/var/folders/42/5dpzjj8s2d55v0gsc5bz2rjm0000gn/T/tmp-61757-dFe6rS73fJjH
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:06:11.804Z - Server stopped because: "LOCK_FILES_CHANGED"

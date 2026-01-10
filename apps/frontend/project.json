@@ -1,0 +1,13 @@
+{
+    "name": "frontend",
+    "projectType": "application",
+    "targets": {
+      "serve": {
+        "executor": "@nx/vite:dev-server",
+        "options": {
+          "port": 4200
+        }
+      }
+    }
+  }
+  

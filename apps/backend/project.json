@@ -1,0 +1,35 @@
+{
+    "name": "backend",
+    "projectType": "application",
+    "sourceRoot": "apps/backend",
+    "targets": {
+      "serve": {
+        "executor": "@nx/node:node",
+        "options": {
+          "buildTarget": "backend:build"
+        }
+      },
+      "build": {
+        "executor": "@nx/node:build",
+        "options": {
+          "main": "apps/backend/server.js",
+          "outputPath": "dist/apps/backend"
+        }
+      },
+      "start": {
+        "executor": "nx:run-commands",
+        "options": {
+          "command": "npm run start",
+          "cwd": "apps/backend"
+        }
+      },
+      "dev": {
+        "executor": "nx:run-commands",
+        "options": {
+          "command": "npm run dev",
+          "cwd": "apps/backend"
+        }
+      }
+    }
+  }
+  
