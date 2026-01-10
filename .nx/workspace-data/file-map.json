@@ -5,6 +5,12 @@
   "nxJsonPlugins": [],
   "fileMap": {
     "projectFileMap": {
+      "frontend": [
+        {
+          "file": "apps/frontend/project.json",
+          "hash": "3485594464563178582"
+        }
+      ],
       "backend": [
         {
           "file": "apps/backend/.env",
@@ -83,12 +89,6 @@
           "deps": [
             "npm:dotenv"
           ]
-        }
-      ],
-      "frontend": [
-        {
-          "file": "apps/frontend/project.json",
-          "hash": "3485594464563178582"
         }
       ]
     },
