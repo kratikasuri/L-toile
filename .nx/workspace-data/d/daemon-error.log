@@ -4,10 +4,10 @@ Messages from the log:
 Time for 'plugin worker 61756 code loading' 3.2867499999701977
 Time for 'plugin worker 61754 code loading' 3.2291669994592667
 Time for 'plugin worker 61755 code loading' 5.258082999847829
-[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.617Z - Time taken for 'Load Nx Plugin: /Users/kunalsuri/zepto-backend/node_modules/nx/src/plugins/project-json/build-nodes/project-json' 159.89954200014472ms
-[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.631Z - Time taken for 'Load Nx Plugin: /Users/kunalsuri/zepto-backend/node_modules/nx/src/plugins/package-json' 173.44150000065565ms
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.617Z - Time taken for 'Load Nx Plugin: /Users/kunalZeptoMobile/zepto-backend/node_modules/nx/src/plugins/project-json/build-nodes/project-json' 159.89954200014472ms
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.631Z - Time taken for 'Load Nx Plugin: /Users/kunalZeptoMobile/zepto-backend/node_modules/nx/src/plugins/package-json' 173.44150000065565ms
 [NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.631Z - Started listening on: /private/var/folders/42/5dpzjj8s2d55v0gsc5bz2rjm0000gn/T/f92e820ebcd5c68896d7/d.sock
-[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.632Z - [WATCHER]: Subscribed to changes within: /Users/kunalsuri/zepto-backend (native)
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.632Z - [WATCHER]: Subscribed to changes within: /Users/kunalZeptoMobile/zepto-backend (native)
 [NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.633Z - [NX-CONSOLE]: Pulling latest Nx (latest) to check console status...
 Fetching nx...
 [NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.639Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
@@ -16,11 +16,11 @@ Fetching nx...
 [NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.644Z - Reusing in-memory cached project graph because no files changed.
 [NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.647Z - Time taken for 'loadDefaultNxPlugins' 181.74279200006276ms
 [NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.648Z - Closed a connection. Number of open connections: 0
-[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.648Z - [WATCHER]: Stopping the watcher for /Users/kunalsuri/zepto-backend (sources)
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.648Z - [WATCHER]: Stopping the watcher for /Users/kunalZeptoMobile/zepto-backend (sources)
 Time for 'nx/core/project-json:createNodes' 0.5195829998701811
-[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.649Z - [WATCHER]: Stopping the watcher for /Users/kunalsuri/zepto-backend (outputs)
+[NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.649Z - [WATCHER]: Stopping the watcher for /Users/kunalZeptoMobile/zepto-backend (outputs)
 [NX v22.3.3 Daemon Server] - 2026-01-10T19:01:55.649Z - Server stopped because: "this process is no longer the current daemon (native)"
 
 
 
-More information: /Users/kunalsuri/zepto-backend/.nx/workspace-data/d/daemon.log
+More information: /Users/kunalZeptoMobile/zepto-backend/.nx/workspace-data/d/daemon.log

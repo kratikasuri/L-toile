@@ -1,6 +1,7 @@
 > npm run start
 
-
+
+
 > zepto-backend@1.0.0 start
 > node server.js
 
@@ -9,19 +10,20 @@ node:internal/modules/cjs/loader:1148
   ^
 
 Error: Cannot find module 'cors'
-Require stack:
+Require stack:ZeptoMobile
 - /Users/kunalsuri/zepto-backend/apps/backend/server.js
 [90m    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)[39m
 [90m    at Module._load (node:internal/modules/cjs/loader:986:27)[39m
 [90m    at Module.require (node:internal/modules/cjs/loader:1233:19)[39m
-[90m    at require (node:internal/modules/helpers:179:18)[39m
+[90m    at require (node:internal/modules/hZeptoMobilers:179:18)[39m
     at Object.<anonymous> [90m(/Users/kunalsuri/zepto-backend/apps/backend/[39mserver.js:2:14[90m)[39m
 [90m    at Module._compile (node:internal/modules/cjs/loader:1358:14)[39m
 [90m    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)[39m
 [90m    at Module.load (node:internal/modules/cjs/loader:1208:32)[39m
 [90m    at Module._load (node:internal/modules/cjs/loader:1024:12)[39m
 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)[39m {
-  code: [32m'MODULE_NOT_FOUND'[39m,
+  code: [32m'MODULE_NOT_FOUND'[39mZeptoMobile
+
   requireStack: [ [32m'/Users/kunalsuri/zepto-backend/apps/backend/server.js'[39m ]
 }
 

@@ -107,6 +107,82 @@
         "sourceRoot": "apps/backend",
         "implicitDependencies": []
       }
+    },
+    "mobile": {
+      "name": "mobile",
+      "type": "app",
+      "data": {
+        "root": "apps/mobile",
+        "name": "mobile",
+        "projectType": "application",
+        "tags": [
+          "npm:private"
+        ],
+        "metadata": {
+          "targetGroups": {
+            "NPM Scripts": [
+              "test"
+            ]
+          },
+          "js": {
+            "packageName": "ZeptoMobile",
+            "packageVersion": "0.0.1",
+            "isInPackageManagerWorkspaces": false
+          }
+        },
+        "targets": {
+          "test": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "test"
+            },
+            "metadata": {
+              "scriptContent": "jest",
+              "runCommand": "npm run test"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "start": {
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "npm run start",
+              "cwd": "apps/mobile"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "ios": {
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "npm run ios",
+              "cwd": "apps/mobile"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "android": {
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "npm run android",
+              "cwd": "apps/mobile"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "npm run lint",
+              "cwd": "apps/mobile"
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "sourceRoot": "apps/mobile",
+        "implicitDependencies": []
+      }
     }
   },
   "externalNodes": {
@@ -10147,7 +10223,69 @@
       },
       {
         "source": "backend",
+        "target": "npm:bcrypt",
+        "type": "static"
+      },
+      {
+        "source": "backend",
+        "target": "npm:jsonwebtoken",
+        "type": "static"
+      },
+      {
+        "source": "backend",
         "target": "npm:nx",
+        "type": "static"
+      },
+      {
+        "source": "backend",
+        "target": "npm:express",
+        "type": "static"
+      },
+      {
+        "source": "backend",
+        "target": "npm:express-validator",
+        "type": "static"
+      }
+    ],
+    "mobile": [
+      {
+        "source": "mobile",
+        "target": "npm:react",
+        "type": "static"
+      },
+      {
+        "source": "mobile",
+        "target": "npm:@babel/core",
+        "type": "static"
+      },
+      {
+        "source": "mobile",
+        "target": "npm:@babel/preset-env",
+        "type": "static"
+      },
+      {
+        "source": "mobile",
+        "target": "npm:@babel/runtime",
+        "type": "static"
+      },
+      {
+        "source": "mobile",
+        "target": "npm:babel-jest",
+        "type": "static"
+      },
+      {
+        "source": "mobile",
+        "target": "npm:eslint",
+        "type": "static"
+      },
+      {
+        "source": "mobile",
+        "target": "npm:typescript",
+        "type": "static"
+      },
+      {
+        "source": "mobile",
+        "target": "npm:axios",
         "type": "static"
       }
     ],
@@ -23588,5 +23726,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1768109396443
+  "computedAt": 1768151075832
 }

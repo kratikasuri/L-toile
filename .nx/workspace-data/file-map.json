@@ -8,7 +8,7 @@
       "frontend": [
         {
           "file": "apps/frontend/project.json",
-          "hash": "3485594464563178582"
+          "hash": "1308988661901425640"
         }
       ],
       "backend": [
@@ -25,11 +25,15 @@
         },
         {
           "file": "apps/backend/controllers/authController.js",
-          "hash": "2500107781288595672"
+          "hash": "13377175799376063497",
+          "deps": [
+            "npm:bcrypt",
+            "npm:jsonwebtoken"
+          ]
         },
         {
           "file": "apps/backend/controllers/categoryControllers.js",
-          "hash": "8945471162098451777"
+          "hash": "7994881384632280708"
         },
         {
           "file": "apps/backend/controllers/productController.js",
@@ -37,7 +41,7 @@
         },
         {
           "file": "apps/backend/controllers/userController.js",
-          "hash": "9670484510563084219"
+          "hash": "3895632423880162543"
         },
         {
           "file": "apps/backend/middleware/authMiddleware.js",
@@ -49,11 +53,11 @@
         },
         {
           "file": "apps/backend/models/productModel.js",
-          "hash": "4771102127782674625"
+          "hash": "13138806657058914955"
         },
         {
           "file": "apps/backend/models/userModel.js",
-          "hash": "14117876129942584616"
+          "hash": "11111827626155206194"
         },
         {
           "file": "apps/backend/package.json",
@@ -65,23 +69,38 @@
         },
         {
           "file": "apps/backend/project.json",
-          "hash": "6888647936160061746"
+          "hash": "14479207006484774547"
         },
         {
           "file": "apps/backend/routes/authRoutes.js",
-          "hash": "14723976198810880188"
+          "hash": "16492703689544568260",
+          "deps": [
+            "npm:express",
+            "npm:express-validator"
+          ]
         },
         {
           "file": "apps/backend/routes/categoryRoutes.js",
-          "hash": "4693023874777134652"
+          "hash": "12134480551580818093",
+          "deps": [
+            "npm:express",
+            "npm:express-validator"
+          ]
         },
         {
           "file": "apps/backend/routes/productRoutes.js",
-          "hash": "15319412923064360495"
+          "hash": "6265859468003931340",
+          "deps": [
+            "npm:express",
+            "npm:express-validator"
+          ]
         },
         {
           "file": "apps/backend/routes/protectedRoutes.js",
-          "hash": "17430439672201900247"
+          "hash": "11772651388348594765",
+          "deps": [
+            "npm:express"
+          ]
         },
         {
           "file": "apps/backend/server.js",
@@ -90,16 +109,352 @@
             "npm:dotenv"
           ]
         }
+      ],
+      "mobile": [
+        {
+          "file": "apps/mobile/.bundle/config",
+          "hash": "9116505824108018199"
+        },
+        {
+          "file": "apps/mobile/.eslintrc.js",
+          "hash": "17354359792012622799"
+        },
+        {
+          "file": "apps/mobile/.gitignore",
+          "hash": "5050593768160088275"
+        },
+        {
+          "file": "apps/mobile/.prettierrc.js",
+          "hash": "5023573646155516009"
+        },
+        {
+          "file": "apps/mobile/.watchmanconfig",
+          "hash": "15753941481085060538"
+        },
+        {
+          "file": "apps/mobile/App.tsx",
+          "hash": "9680653272033455605",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/mobile/Gemfile",
+          "hash": "12884890766378124899"
+        },
+        {
+          "file": "apps/mobile/IOS_BUILD_TROUBLESHOOTING.md",
+          "hash": "13473438398836908227"
+        },
+        {
+          "file": "apps/mobile/README.md",
+          "hash": "10575641548894021443"
+        },
+        {
+          "file": "apps/mobile/__tests__/App.test.tsx",
+          "hash": "10792233639728460309",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/mobile/android/app/build.gradle",
+          "hash": "1339933039751232485"
+        },
+        {
+          "file": "apps/mobile/android/app/debug.keystore",
+          "hash": "5037686243849261810"
+        },
+        {
+          "file": "apps/mobile/android/app/proguard-rules.pro",
+          "hash": "13814197385154279786"
+        },
+        {
+          "file": "apps/mobile/android/app/src/main/AndroidManifest.xml",
+          "hash": "14837885428359099687"
+        },
+        {
+          "file": "apps/mobile/android/app/src/main/java/com/zeptomobile/MainActivity.kt",
+          "hash": "17637736873399245975"
+        },
+        {
+          "file": "apps/mobile/android/app/src/main/java/com/zeptomobile/MainApplication.kt",
+          "hash": "17333778780375221093"
+        },
+        {
+          "file": "apps/mobile/android/app/src/main/res/drawable/rn_edit_text_material.xml",
+          "hash": "4466596183044014152"
+        },
+        {
+          "file": "apps/mobile/android/app/src/main/res/mipmap-hdpi/ic_launcher.png",
+          "hash": "10788509195642110029"
+        },
+        {
+          "file": "apps/mobile/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png",
+          "hash": "14348562046770238248"
+        },
+        {
+          "file": "apps/mobile/android/app/src/main/res/mipmap-mdpi/ic_launcher.png",
+          "hash": "328692529308011025"
+        },
+        {
+          "file": "apps/mobile/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png",
+          "hash": "11802043336826859502"
+        },
+        {
+          "file": "apps/mobile/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+          "hash": "13006206334539413900"
+        },
+        {
+          "file": "apps/mobile/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png",
+          "hash": "1812825738055967771"
+        },
+        {
+          "file": "apps/mobile/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+          "hash": "6104457872863500683"
+        },
+        {
+          "file": "apps/mobile/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png",
+          "hash": "2478168592410677995"
+        },
+        {
+          "file": "apps/mobile/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+          "hash": "12283149652938275290"
+        },
+        {
+          "file": "apps/mobile/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png",
+          "hash": "7126668675123994836"
+        },
+        {
+          "file": "apps/mobile/android/app/src/main/res/values/strings.xml",
+          "hash": "5537970291379740544"
+        },
+        {
+          "file": "apps/mobile/android/app/src/main/res/values/styles.xml",
+          "hash": "14052910750539201041"
+        },
+        {
+          "file": "apps/mobile/android/build.gradle",
+          "hash": "14276478454806160793"
+        },
+        {
+          "file": "apps/mobile/android/gradle.properties",
+          "hash": "9051431235718361316"
+        },
+        {
+          "file": "apps/mobile/android/gradle/wrapper/gradle-wrapper.jar",
+          "hash": "2487768331266202992"
+        },
+        {
+          "file": "apps/mobile/android/gradle/wrapper/gradle-wrapper.properties",
+          "hash": "1738382101862936557"
+        },
+        {
+          "file": "apps/mobile/android/gradlew",
+          "hash": "15457068491492131041"
+        },
+        {
+          "file": "apps/mobile/android/gradlew.bat",
+          "hash": "11696202184983665693"
+        },
+        {
+          "file": "apps/mobile/android/settings.gradle",
+          "hash": "15492400772397123690"
+        },
+        {
+          "file": "apps/mobile/app.json",
+          "hash": "8165878742177361543"
+        },
+        {
+          "file": "apps/mobile/babel.config.js",
+          "hash": "17506418141289760001"
+        },
+        {
+          "file": "apps/mobile/clean-ios-build.sh",
+          "hash": "16459105230086875622"
+        },
+        {
+          "file": "apps/mobile/index.js",
+          "hash": "13485637918330743112"
+        },
+        {
+          "file": "apps/mobile/ios/.xcode.env",
+          "hash": "2240437479405059044"
+        },
+        {
+          "file": "apps/mobile/ios/Podfile",
+          "hash": "8321783132468413493"
+        },
+        {
+          "file": "apps/mobile/ios/Podfile.lock",
+          "hash": "3335075831685959975"
+        },
+        {
+          "file": "apps/mobile/ios/ZeptoMobile.xcodeproj/project.pbxproj",
+          "hash": "2110332156224521225"
+        },
+        {
+          "file": "apps/mobile/ios/ZeptoMobile.xcodeproj/xcshareddata/xcschemes/ZeptoMobile.xcscheme",
+          "hash": "14461466445300394192"
+        },
+        {
+          "file": "apps/mobile/ios/ZeptoMobile.xcworkspace/contents.xcworkspacedata",
+          "hash": "16240202258966760313"
+        },
+        {
+          "file": "apps/mobile/ios/ZeptoMobile/AppDelegate.swift",
+          "hash": "8365654080377036609"
+        },
+        {
+          "file": "apps/mobile/ios/ZeptoMobile/Images.xcassets/AppIcon.appiconset/Contents.json",
+          "hash": "13651775502586994303"
+        },
+        {
+          "file": "apps/mobile/ios/ZeptoMobile/Images.xcassets/Contents.json",
+          "hash": "10114040536141029740"
+        },
+        {
+          "file": "apps/mobile/ios/ZeptoMobile/Info.plist",
+          "hash": "17584582808961033333"
+        },
+        {
+          "file": "apps/mobile/ios/ZeptoMobile/LaunchScreen.storyboard",
+          "hash": "3675876183568764021"
+        },
+        {
+          "file": "apps/mobile/ios/ZeptoMobile/PrivacyInfo.xcprivacy",
+          "hash": "16670914145149810597"
+        },
+        {
+          "file": "apps/mobile/jest.config.js",
+          "hash": "3450453734004767423"
+        },
+        {
+          "file": "apps/mobile/metro.config.js",
+          "hash": "2535319034288447076"
+        },
+        {
+          "file": "apps/mobile/package-lock.json",
+          "hash": "12726106216323442644"
+        },
+        {
+          "file": "apps/mobile/package.json",
+          "hash": "6079223915933272109",
+          "deps": [
+            "npm:@babel/core",
+            "npm:@babel/preset-env",
+            "npm:@babel/runtime",
+            "npm:babel-jest",
+            "npm:eslint",
+            "npm:typescript",
+            "npm:axios",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/mobile/project.json",
+          "hash": "6392239251661306062"
+        },
+        {
+          "file": "apps/mobile/src/api/apiClient.js",
+          "hash": "8824350908023874599",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/mobile/src/api/auth.js",
+          "hash": "15673699430322924782"
+        },
+        {
+          "file": "apps/mobile/src/api/categories.js",
+          "hash": "12061329460461447778"
+        },
+        {
+          "file": "apps/mobile/src/api/products.js",
+          "hash": "8951215456573353666"
+        },
+        {
+          "file": "apps/mobile/src/context/AuthContext.js",
+          "hash": "5024381556346312397",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/mobile/src/navigation/AppNavigator.js",
+          "hash": "12032400721918206678",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/mobile/src/screens/auth/LoginScreen.js",
+          "hash": "15363258708496219725",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/mobile/src/screens/auth/OTPVerificationScreen.js",
+          "hash": "4083536722856220135",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/mobile/src/screens/auth/RegisterScreen.js",
+          "hash": "8253365001476172336",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/mobile/src/screens/categories/CategoryScreen.js",
+          "hash": "9432831228119482157",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/mobile/src/screens/home/HomeScreen.js",
+          "hash": "10111156981491088043",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/mobile/src/screens/products/ProductDetailScreen.js",
+          "hash": "7275828259731224198",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/mobile/src/screens/products/ProductListScreen.js",
+          "hash": "13665774820710303227",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/mobile/tsconfig.json",
+          "hash": "11359266357810263712"
+        }
       ]
     },
     "nonProjectFiles": [
       {
         "file": ".DS_Store",
-        "hash": "11573421431900342222"
+        "hash": "8657237192377899345"
       },
       {
-        "file": "REACT_NATIVE_SETUP.md",
-        "hash": "4431273602745350072"
+        "file": ".gitignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": "MOBILE_APP_SETUP.md",
+        "hash": "12752893322121429375"
       },
       {
         "file": "env.example",
@@ -111,11 +466,15 @@
       },
       {
         "file": "nx.json",
-        "hash": "427209836484684200"
+        "hash": "17419671497234444013"
       },
       {
         "file": "package-lock.json",
-        "hash": "9550973084387167719"
+        "hash": "14909504601650082386"
+      },
+      {
+        "file": "package.json",
+        "hash": "16214104690085782533"
       },
       {
         "file": "react-native-templates/App.js.example",
@@ -156,6 +515,10 @@
       {
         "file": "react-native-templates/productsAPI.js",
         "hash": "8509662134292150200"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "15841578006977996720"
       }
     ]
   },
